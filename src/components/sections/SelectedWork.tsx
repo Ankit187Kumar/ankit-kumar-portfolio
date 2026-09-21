@@ -126,16 +126,36 @@ const projects: Project[] = [
     color: "#0891b2",
     previewImage: "/projects/foodshop.png",
   },
+  {
+    id: "teamportal",
+    num: "07",
+    title: "TEAM MANAGEMENT PORTAL",
+    category: "FULL-STACK WEB APPLICATION",
+    description: "Team & project management dashboard for tracking employees, projects, tasks, and progress in one place.",
+    longDescription: "A full-stack team management portal for organizing teams, projects, and daily work. Admins can add employees, create projects, assign tasks, and monitor progress through a centralized dashboard — with live stats on total employees, projects, assignments, completions, and overdue work, plus per-project progress bars, due dates, and assigned team members.",
+    problem: "Small teams need a single place to track who's working on what, how projects are progressing, and what's overdue — without juggling spreadsheets or scattered tools.",
+    solution: "Built a dashboard-driven portal with employee and project management, task assignment, and progress tracking, backed by a MongoDB database hosted on Render and a frontend deployed on Vercel.",
+    userFlow: ["LOGIN", "DASHBOARD OVERVIEW", "ADD EMPLOYEE / PROJECT", "ASSIGN TASK", "TRACK PROGRESS", "VIEW REPORTS"],
+    architecture: ["Frontend (Vercel)", "REST API (Backend)", "MongoDB (Render)", "Vercel (Deployment)"],
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Render", "Vercel"],
+    contribution: "Full-stack development — dashboard UI, employee/project/task management, progress tracking, and backend API with MongoDB.",
+    challenges: "Designing a dashboard that surfaces the right stats at a glance while keeping employee, project, and task data in sync across the app.",
+    result: "A deployed team management portal with live dashboard stats, employee and project tracking, task assignment, and progress monitoring.",
+    liveDemo: "https://team-management-portal-neon.vercel.app/",
+    tags: ["React", "Node.js", "MongoDB", "Render", "Vercel"],
+    color: "#3d63d1",
+    previewImage: "/projects/teamportal.png",
+  },
 ];
 
 const filters = ["ALL", "AR / WEBAR", "VR", "INTERACTIVE", "WEB", "AI / DATA"];
 
 const filterMap: Record<string, string[]> = {
-  ALL: ["kiosk", "scanner", "handslash", "handmaze", "rbac", "foodshop"],
+  ALL: ["kiosk", "scanner", "handslash", "handmaze", "rbac", "foodshop", "teamportal"],
   "AR / WEBAR": [],
   VR: [],
   INTERACTIVE: ["kiosk", "handslash", "handmaze"],
-  WEB: ["rbac", "foodshop", "kiosk"],
+  WEB: ["rbac", "foodshop", "kiosk", "teamportal"],
   "AI / DATA": ["kiosk", "scanner", "handslash", "handmaze"],
 };
 
