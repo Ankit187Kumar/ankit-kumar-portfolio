@@ -1,36 +1,188 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio — Ankit Kumar
 
-## Getting Started
+A modern, interactive, and responsive personal portfolio website built with **Next.js** and designed to showcase my experience, technical skills, projects, and work in **Software Development, AR/VR, Interactive Experiences, and AI/LLM technologies**.
 
-First, run the development server:
+🔗 **Live Portfolio:**
+https://ankit-portfolio-nu-five.vercel.app/
+
+---
+
+## ✨ Features
+
+* Modern and responsive UI
+* Interactive portfolio experience
+* Professional About Me section
+* Skills & technology showcase
+* Project portfolio with live demonstrations
+* Experience and education sections
+* AR/VR and immersive technology projects
+* AI/LLM-related work and projects
+* Contact section
+* Optimized for desktop and mobile devices
+* Fast performance using Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React.js
+* TypeScript
+* JavaScript
+* HTML5
+* CSS3
+
+### Backend & Development
+
+* Node.js
+* REST APIs
+* PostgreSQL / MySQL
+* Git & GitHub
+
+### AI / LLM
+
+* OpenAI
+* Google Gemini
+* Claude
+* LangChain
+* LLM Application Development
+
+### AR / VR & Interactive Experiences
+
+* A-Frame
+* 8th Wall
+* Unity
+* WebAR
+* Interactive 3D Experiences
+* MediaPipe
+* OpenCV
+
+### Deployment
+
+* Vercel
+* Netlify
+* AWS
+
+---
+
+## 📂 Featured Projects
+
+### 🎮 Hand Maze Game
+
+A computer-vision-based interactive game using hand tracking and gesture recognition.
+
+**Technologies:** Python, OpenCV, MediaPipe, NumPy
+
+---
+
+### ⚔️ Hand Slash Quiz
+
+A gesture-controlled interactive quiz inspired by rhythm and action-based gaming experiences.
+
+**Technologies:** JavaScript, MediaPipe, Hand Tracking
+
+---
+
+### 🥽 AR/VR Experiences
+
+Interactive AR/VR experiences developed using WebAR, A-Frame, 8th Wall, and Unity.
+
+**Technologies:** A-Frame, 8th Wall, Unity, GLB/GLTF
+
+---
+
+### 🤖 AI Photo-to-Video Kiosk
+
+An interactive AI-powered kiosk concept designed to transform images into engaging video experiences.
+
+**Technologies:** AI, Web Applications, Interactive UI
+
+---
+
+## 👨‍💻 About Me
+
+I am a **Software Developer** with experience in building web applications, backend services, interactive digital experiences, AR/VR applications, and AI/LLM-powered solutions.
+
+My interests include combining **software development, artificial intelligence, immersive technologies, and interactive experiences** to build innovative digital products.
+
+---
+
+## 📬 Connect With Me
+
+**LinkedIn:**
+[www.linkedin.com/in/ankit-chaudhary-351a73264](http://www.linkedin.com/in/ankit-chaudhary-351a73264)
+
+**GitHub:**
+https://github.com/Ankit187Kumar
+
+**Portfolio:**
+https://ankit-portfolio-nu-five.vercel.app/
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone <your-repository-url>
+
+cd <project-folder>
+
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can start editing the website by modifying:
 
-## Learn More
+```text
+app/page.tsx
+```
 
-To learn more about Next.js, take a look at the following resources:
+The page will automatically update as you make changes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Build for Production
 
-## Deploy on Vercel
+Create a production build:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Start the production server:
+
+```bash
+npm start
+```
+
+---
+
+## ☁️ Deployment
+
+This project is deployed using **Vercel**.
+
+Every production-ready version can be deployed directly through the Vercel platform.
+
+**Live Website:**
+https://ankit-portfolio-nu-five.vercel.app/
+
+---
+
+## 📄 License
+
+This project is created for personal portfolio and professional showcase purposes.
