@@ -46,6 +46,7 @@ const projects: Project[] = [
     tags: ["Unity", "C#", "OCR", "Node.js", "Google Apps Script", "Vercel"],
     color: "#7c3aed",
     previewImage: "/projects/scanner.png",
+    previewVideo: "/projects/scanner-demo.mp4",
   },
   {
     id: "handslash",

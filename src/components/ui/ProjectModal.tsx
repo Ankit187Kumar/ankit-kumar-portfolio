@@ -24,6 +24,7 @@ export type Project = {
   color: string;
   tags: string[];
   previewImage?: string;
+  previewVideo?: string;
 };
 
 export default function ProjectModal({
@@ -104,6 +105,15 @@ export default function ProjectModal({
                 <p style={{ color: "#475569" }} className="text-sm leading-relaxed">
                   {project.longDescription}
                 </p>
+                {project.previewVideo && (
+                  <video
+                    src={project.previewVideo}
+                    controls
+                    playsInline
+                    className="w-full rounded-xl mt-2"
+                    style={{ border: `1px solid ${project.color}25` }}
+                  />
+                )}
                 <div className="flex flex-wrap gap-2 pt-2">
                   {project.tags.map((t) => (
                     <span key={t} className="tech-tag">{t}</span>
