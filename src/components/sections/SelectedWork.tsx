@@ -146,16 +146,35 @@ const projects: Project[] = [
     color: "#3d63d1",
     previewImage: "/projects/teamportal.png",
   },
+  {
+    id: "shopledger",
+    num: "08",
+    title: "SHOPLEDGER – MULTI-SHOP BUSINESS MANAGEMENT",
+    category: "FULL-STACK WEB APPLICATION",
+    description: "All-in-one business suite for managing multiple shops, employees, salaries, expenses, stock, and cash flow from one dashboard.",
+    longDescription: "ShopLedger is an all-in-one business management platform for managing multiple shops, employees, salaries, expenses, stock, and daily cash flow from a single dashboard. It supports attendance-based salary calculation, employee advances, final settlements, shop-wise cash/UPI tracking, stock management, and role-based access for owners and managers.",
+    problem: "Small business owners running multiple shops needed a single platform to track employee attendance, salaries, daily cash and UPI collections, expenses, and stock — without juggling spreadsheets across locations.",
+    solution: "Built a multi-shop business suite with a Next.js/TypeScript frontend and a Node.js/Express/TypeScript backend on MongoDB. Each shop has isolated employees, expenses, stock, and transactions, with attendance-based salary logic (2 paid leaves/month, deductions for extra leaves), JWT auth, and owner/manager role-based access scoped to assigned shops.",
+    userFlow: ["LOGIN", "SELECT SHOP", "DASHBOARD OVERVIEW", "MARK ATTENDANCE", "RECORD EXPENSES / CASH FLOW", "MANAGE STOCK", "SALARY & SETTLEMENTS", "REPORTS"],
+    architecture: ["Next.js + TypeScript (Frontend)", "Tailwind CSS + shadcn/ui (UI)", "Node.js + Express + TypeScript (Backend)", "MongoDB + Mongoose (Database)", "JWT + bcrypt (Auth)", "Cloudinary (Media)", "Vercel (Frontend Hosting)", "Render (Backend Hosting)"],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "bcrypt", "Cloudinary"],
+    contribution: "Full-stack development — multi-shop dashboard UI, attendance and salary calculation logic, cash flow and expense tracking, stock management, role-based access control, and REST API backend.",
+    challenges: "Designing attendance-based salary calculations with paid-leave rules and deductions. Keeping shop-scoped data (employees, stock, cash flow) fully isolated per shop while supporting a business-wide owner view. Securing sensitive data (Aadhaar encryption/masking) and audit history for financial records.",
+    result: "A deployed multi-shop business suite with live dashboards, attendance-based payroll, cash flow tracking, stock management, and role-based access for owners and managers.",
+    liveDemo: "https://frontend-eta-ten-44.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB", "JWT", "Vercel", "Render"],
+    color: "#059669",
+  },
 ];
 
 const filters = ["ALL", "AR / WEBAR", "VR", "INTERACTIVE", "WEB", "AI / DATA"];
 
 const filterMap: Record<string, string[]> = {
-  ALL: ["kiosk", "scanner", "handslash", "handmaze", "rbac", "foodshop", "teamportal"],
+  ALL: ["kiosk", "scanner", "handslash", "handmaze", "rbac", "foodshop", "teamportal", "shopledger"],
   "AR / WEBAR": [],
   VR: [],
   INTERACTIVE: ["kiosk", "handslash", "handmaze"],
-  WEB: ["rbac", "foodshop", "kiosk", "teamportal"],
+  WEB: ["rbac", "foodshop", "kiosk", "teamportal", "shopledger"],
   "AI / DATA": ["kiosk", "scanner", "handslash", "handmaze"],
 };
 
