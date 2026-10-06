@@ -161,9 +161,9 @@ const projects: Project[] = [
     contribution: "Full-stack development — multi-shop dashboard UI, attendance and salary calculation logic, cash flow and expense tracking, stock management, role-based access control, and REST API backend.",
     challenges: "Designing attendance-based salary calculations with paid-leave rules and deductions. Keeping shop-scoped data (employees, stock, cash flow) fully isolated per shop while supporting a business-wide owner view. Securing sensitive data (Aadhaar encryption/masking) and audit history for financial records.",
     result: "A deployed multi-shop business suite with live dashboards, attendance-based payroll, cash flow tracking, stock management, and role-based access for owners and managers.",
-    liveDemo: "https://frontend-eta-ten-44.vercel.app/",
     tags: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB", "JWT", "Vercel", "Render"],
     color: "#059669",
+    previewImage: "/projects/shopledger.png",
   },
 ];
 
