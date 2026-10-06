@@ -15,6 +15,7 @@ import About from "@/components/sections/About";
 import Capabilities from "@/components/sections/Capabilities";
 import SelectedWork from "@/components/sections/SelectedWork";
 import Experience from "@/components/sections/Experience";
+import Education from "@/components/sections/Education";
 import Certificates from "@/components/sections/Certificates";
 import Skills from "@/components/sections/Skills";
 import GithubLinkedIn from "@/components/sections/GithubLinkedIn";
@@ -46,6 +47,7 @@ export default function HomePage() {
             <Capabilities />
             <SelectedWork />
             <Experience />
+            <Education />
             <Certificates />
             <Skills />
             <GithubLinkedIn />
